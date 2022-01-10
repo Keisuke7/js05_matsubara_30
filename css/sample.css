@@ -1,0 +1,84 @@
+
+body {
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+  margin: 0 auto;
+  color: #222222;
+  text-align: justify;
+  font-size: 26px;
+  text-align: inter-deograph;
+}
+
+header {
+  background-color: #fff;
+  text-align: center;
+}
+h1 {
+  font-size: 120%;
+  height: 100px;
+  line-height: 100px;
+}
+main {
+  width: 100%;
+  display: block;
+  position: relative;
+}
+
+#memo-wrapper{
+  height: 200px;
+}
+
+ul {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  font-size: 80%;
+  margin: 0 3%;
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+  /* border: 1px solid #666; */
+  background-color: #fff;
+  cursor: pointer;
+  color: #0d7dfd;
+  margin: 0 40px;
+}
+
+
+li:hover {
+  opacity: 70%;
+  color: #fff;
+}
+
+.circle {
+  line-height: 100px;
+  width: 100px;
+  height: 100px;
+  background: #ffa500;
+  border-radius: 50%;
+  color: #222222;
+}
+
+textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  resize: none;
+  width: 100%;
+  height: 110px;
+  font-size: 60%;
+  background-color: rgb(255, 255, 255);
+  border: rgb(177, 177, 177);
+}
+
+.move {
+  background-color: orange;
+  width: 150px;
+  height: 150px;
+  box-shadow: 3px 3px 3px 3px #999;
+  display: flex;
+  justify-content: center;
+  align-items:flex-end;
+
+}
